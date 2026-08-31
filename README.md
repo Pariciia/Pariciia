@@ -1,3 +1,10 @@
+<div align="right">
+
+[![TR](https://img.shields.io/badge/TR-F72585?style=flat-square&labelColor=1a1b27)](#) &nbsp;
+[![EN](https://img.shields.io/badge/EN-4361EE?style=flat-square&labelColor=1a1b27)](./README_EN.md)
+
+</div>
+
 <div align="center">
 
 <!-- Header -->
@@ -13,7 +20,7 @@
 
 <br>
 
-`3D & Graphics` &nbsp; `Cross-Platform` &nbsp; `Hardware / IoT` &nbsp; `UI Design`
+`3D & Grafik` &nbsp; `Çapraz Platform` &nbsp; `Donanım / IoT` &nbsp; `UI Tasarım`
 
 </div>
 
@@ -33,26 +40,26 @@ $ echo $LOCATION
 
 ---
 
-### Tech Stack
+### Teknoloji Yığını
 
-**Languages**
+**Diller**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
 
-**Frameworks & Libraries**
+**Kütüphaneler & Framework'ler**
 
 ![Kivy](https://img.shields.io/badge/Kivy-E8734A?style=flat-square&logoColor=white)
 ![OpenGL](https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-2396F3?style=flat-square&logo=swift&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
-**Hardware & IoT**
+**Donanım & IoT**
 
 ![BLE](https://img.shields.io/badge/BLE-0078D7?style=flat-square&logo=bluetooth&logoColor=white)
 ![CoreBluetooth](https://img.shields.io/badge/CoreBluetooth-147EFB?style=flat-square&logo=apple&logoColor=white)
 
-**Tools**
+**Araçlar**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Xcode](https://img.shields.io/badge/Xcode-1575F9?style=flat-square&logo=xcode&logoColor=white)
@@ -61,26 +68,8 @@ $ echo $LOCATION
 
 ---
 
-### Contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-green.svg" />
-  <img alt="3D Contribution Graph" src="./profile-3d-contrib/profile-night-green.svg" />
-</picture>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dist/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./dist/github-contribution-grid-snake.svg" />
-  <img alt="Snake animation" src="./dist/github-contribution-grid-snake-dark.svg" />
-</picture>
-
----
-
-### Connect
+### Bağlantı
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pariciia)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abkeasz@gmail.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aybuke.0763@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayb%C3%BCke-aks%C3%B6z-303969251/)
