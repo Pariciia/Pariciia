@@ -31,11 +31,12 @@ $ whoami
 > Aybuke Aksoz
 
 $ cat interests.txt
-> 3D graphics, cross-platform dev,
-> hardware integration, UI design
+> 3D visualization, macOS/iOS dev,
+> Bluetooth & IoT, signal processing,
+> UI design
 
 $ echo $LOCATION
-> Istanbul, Turkey
+> Nevsehir, Turkey
 ```
 
 ---
