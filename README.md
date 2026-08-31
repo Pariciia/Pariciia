@@ -8,7 +8,7 @@
 `@Pariciia`
 
 <!-- Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&duration=3000&pause=1500&color=8B949E&center=true&vCenter=true&width=500&height=45&lines=Yaz%C4%B1l%C4%B1m+Geli%C5%9Ftirici+%26+Tasar%C4%B1mc%C4%B1;macOS+ve+iOS+Uygulama+Geli%C5%9Ftirme;Masa%C3%BCst%C3%BC+ve+Mobil+Uygulama+Tasar%C4%B1m%C4%B1;3D+G%C3%B6rselle%C5%9Ftirme+%26+Ger%C3%A7ek+Zamanl%C4%B1+Sistemler;Bluetooth+%26+IoT+Donan%C4%B1m+Entegrasyonu;Sinyal+%C4%B0%C5%9Fleme+%26+Veri+G%C3%B6rselle%C5%9Ftirme;Apple+Ekosistemi+Geli%C5%9Ftirme;Fikirlerden+%C4%B0nteraktif+Ara%C3%A7lara" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&duration=3000&pause=1500&color=C9D1D9&center=true&vCenter=true&width=500&height=45&lines=Yaz%C4%B1l%C4%B1m+Geli%C5%9Ftirici+%26+Tasar%C4%B1mc%C4%B1;macOS+ve+iOS+Uygulama+Geli%C5%9Ftirme;Masa%C3%BCst%C3%BC+ve+Mobil+Uygulama+Tasar%C4%B1m%C4%B1;3D+G%C3%B6rselle%C5%9Ftirme+%26+Ger%C3%A7ek+Zamanl%C4%B1+Sistemler;Bluetooth+%26+IoT+Donan%C4%B1m+Entegrasyonu;Sinyal+%C4%B0%C5%9Fleme+%26+Veri+G%C3%B6rselle%C5%9Ftirme;Apple+Ekosistemi+Geli%C5%9Ftirme;Fikirlerden+%C4%B0nteraktif+Ara%C3%A7lara" alt="Typing SVG" />
 
 <br>
 
