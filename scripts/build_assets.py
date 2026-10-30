@@ -108,18 +108,33 @@ def header():
     ticks = "".join(f'<line x1="{x}" y1="233" x2="{x}" y2="239"/>' for x in range(0, W, 8))
 
     wave = waveform()
-    chips = ["macOS", "iOS", "ESP32", "3D"]
+    # Entegre devre (DIP) görünümlü çipler: üst/alt bacaklar, pin-1 çentiği, sırayla yanan LED
+    chips = [("macOS", AMBER), ("iOS", GOLD), ("Python", GREEN), ("Swift", VIOLET)]
     chip_svg = []
-    cx = W - 48
-    for i, c in enumerate(reversed(chips)):
-        w = len(c) * 8 + 26
+    cx = W - 36
+    cy, ch = 102, 30
+    for i, (c, col) in enumerate(reversed(chips)):
+        w = round(len(c) * 7.6 + 42)
         cx -= w
-        chip_svg.append(
-            f'<g opacity="0">{fade_in(0.9 + i * 0.12)}'
-            f'<rect x="{cx}" y="104" width="{w}" height="28" rx="14" fill="{PANEL}" stroke="{LINE}"/>'
-            f'<text x="{cx + w / 2}" y="123" text-anchor="middle" font-family="{MONO}" font-size="12.5" fill="{TEXT}">{c}</text></g>'
+        n_pins = max(2, (w - 16) // 12)
+        step = (w - 16) / (n_pins - 1)
+        pins = "".join(
+            f'<rect x="{cx + 8 + k * step - 1.5:.1f}" y="{cy - 5}" width="3" height="5" rx=".8"/>'
+            f'<rect x="{cx + 8 + k * step - 1.5:.1f}" y="{cy + ch}" width="3" height="5" rx=".8"/>'
+            for k in range(n_pins)
         )
-        cx -= 8
+        idx = len(chips) - 1 - i  # soldan sağa sıra → LED zinciri soldan akar
+        chip_svg.append(
+            f'<g opacity="0">{fade_in(0.9 + idx * 0.12)}'
+            f'<g fill="{DIM}">{pins}</g>'
+            f'<rect x="{cx}" y="{cy}" width="{w}" height="{ch}" rx="5" fill="{PANEL}" stroke="{col}" stroke-opacity=".45"/>'
+            f'<path d="M{cx} {cy + ch / 2 - 5} a5 5 0 0 1 0 10" fill="{BG}" stroke="{col}" stroke-opacity=".45"/>'
+            f'<circle cx="{cx + 16}" cy="{cy + ch / 2}" r="3.2" fill="{col}" filter="url(#glow)">'
+            f'<animate attributeName="opacity" values=".35;1;.35;.35" keyTimes="0;.12;.3;1" dur="2.4s" begin="{idx * 0.3:.1f}s" repeatCount="indefinite"/></circle>'
+            f'<text x="{cx + 27}" y="{cy + 19.5}" font-family="{MONO}" font-size="12.5" font-weight="600" letter-spacing=".4" fill="{TEXT}">{c}</text></g>'
+        )
+        cx -= 10
+    chip_svg.insert(0, f'<text x="{W - 36}" y="86" text-anchor="end" font-family="{MONO}" font-size="10" letter-spacing="2.5" fill="{DIM}">// CORE STACK</text>')
 
     labels = [(220, "∿ analog"), (380, "♥ pulse"), (535, "⎍ digital"), (740, "◌ decay")]
     label_svg = "".join(
